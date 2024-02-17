@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## Access This Site
 
-<img src="/img/microsite.png" alt="microsite" width="200"/>
+<img src="../img/microsite.png" alt="microsite" width="200"/>
 
 Scan the QR code to access this material.
 
