@@ -19,12 +19,11 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/', //`/${projectName}/`,
-  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName, //: 'facebook', // Usually your GitHub org/user name.
-  projectName, //: 'docusaurus', // Usually your repo name.
+  //organizationName, //: 'facebook', // Usually your GitHub org/user name.
+  //projectName, //: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +38,7 @@ const config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -57,6 +56,11 @@ const config = {
     ],
   ],
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -70,6 +74,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} AELF Developer Workshop.`,
       },
       prism: {
+        additionalLanguages: ["csharp", "protobuf", "powershell"],
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
