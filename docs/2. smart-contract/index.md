@@ -15,10 +15,11 @@ Here are the backend functionalities that we will be implementing as shown below
 <img src="/img/dapp-overview.png" alt="Portkey Login" width=""/>
 </p>
 
-Preview of Voting Smart Contract Functionalities
-The first step involves initializing the voting smart contract! This initialization process is essential to allow users to interact with the smart contract.
+<p align="center">Preview of Voting Smart Contract Functionalities</p>
 
-With the smart contract initialized, users will then be able to engage with the JoinDAO function of the smart contract to become official members of the DAO.
+The first step involves **Initializing the voting smart contrac**t! This initialization process is essential to allow users to interact with the smart contract.
+
+With the smart contract initialized, users will then be able to engage with the **JoinDAO** function of the smart contract to become official members of the DAO.
 
 As official members of the DAO, users will then be empowered to:
 
