@@ -12,7 +12,7 @@ The Voting dApp will comprise 2 pages namely the landing page and create proposa
 **Landing Page**
 
 <p align="center">
-<img src="/img/fe-overview.png" alt="Upload Proposal" width=""/>
+<img src="/img/Developer_DAO_Landing_Page.jpg" alt="Upload Proposal" width=""/>
 </p>
 
 <p align="center">Preview of Landing Page</p>
